@@ -1,9 +1,9 @@
-import './App.css';
-import { View } from './components/View';
+import { View } from '../components/View';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { dataService } from "./services/dataService";
+import { dataService } from "../services/dataService";
 import { motion, AnimatePresence } from "framer-motion"
+import '../App.css'
 
 function App() {
 

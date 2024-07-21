@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './routes/App';
 import reportWebVitals from './reportWebVitals';
 
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Ref from './routes/Ref';
 
 const router = createBrowserRouter([
-  {path: '/', 
+  {path: '/calling-card', 
    element: <App /> 
   },{
     path: '/references',
